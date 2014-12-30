@@ -1,0 +1,535 @@
+/* CSS Document */
+body {
+    margin: 0px;
+    padding: 0px;
+    font-size: 12px;
+    font-family: "����", "MS SONG", "SimSun", "tahoma", "sans-serif"
+}
+
+p {
+    margin: 0px;
+    padding: 0px;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+li {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+a:link {
+    color: #1b5e28;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #1b5e28;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #01b51e;
+}
+
+.f14 {
+    font-size: 14px;
+    font-weight: bold;
+    color: #154d1e;
+}
+
+img {
+    border: 0px;
+}
+
+.line {
+    background: url(../images/line.gif) repeat-x;
+    height: 3px;
+    width: 1003px;
+    margin: 0px auto;
+    font-size: 0px;
+}
+
+.clr {
+    clear: both;
+}
+
+#top {
+    width: 1003px;
+    margin: 0px auto;
+    background: url(../images/top_bg.jpg) no-repeat;
+    height: 119px;
+}
+
+.logo {
+    margin-top: 38px;
+    color: #ffffff;
+    font-size: 14px;
+    float: left;
+    margin-left: 15px;
+    line-height: 35px;
+}
+
+h1 {
+    margin: 0px;
+    padding: 0px;
+    font-family: "���Ǵ����";
+    font-size: 30px;
+}
+
+.member {
+    float: right;
+    margin-top: 30px;
+    margin-right: 10px;
+}
+
+#banner {
+    width: 1003px;
+    margin: 0px auto;
+}
+
+#menu {
+    width: 993px;
+    margin: 0px auto;
+    background: #154d20;
+    height: 42px;
+    line-height: 42px;
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+#menu a {
+    padding: 0px 11px;
+    text-align: center;
+    display: inline;
+    float: left;
+    margin: 0px 10px;
+}
+
+#menu a:link {
+    color: #fff;
+    text-decoration: none;
+}
+
+#menu a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+#menu a:hover {
+    background: url(../images/hover_bg.gif) no-repeat center;
+}
+
+#menu span a {
+    background: url(../images/hover_bg.gif) no-repeat center;
+}
+
+#cont {
+    width: 1003px;
+    margin: 0px auto;
+    background: url(../images/left_bg.gif) repeat-y #1a5d27;
+}
+
+.left {
+    background: url(../images/left_bg.gif) repeat-y;
+    width: 218px;
+    float: left;
+    padding: 0px 2px 0px 6px;
+}
+
+.login {
+    background: url(../images/login_bg.gif) no-repeat;
+    width: 217px;
+    padding: 33px 0px 0px;
+    height: 160px;
+}
+
+.font1 {
+    color: #fff;
+    margin-left: 35px;
+}
+
+.login_cont {
+    padding: 18px 15px;
+    color: #fff;
+    line-height: 28px;
+}
+
+.search {
+    width: 211px;
+    margin-top: 5px;
+    padding: 12px 3px 3px;
+    background: url(../images/search_bg.gif) no-repeat #fff center 0px;
+}
+
+.font2 {
+    margin-left: 35px;
+}
+
+.search_cont {
+    padding: 15px 19px;
+    color: #000;
+}
+
+.lh28 {
+    margin-bottom: 5px;
+}
+
+.qg_cont {
+    padding: 13px 15px 0px;
+    color: #154d1e;
+    line-height: 28px;
+}
+
+.red {
+    color: #ff0000;
+}
+
+.qg_cont ul li {
+    display: block;
+    padding-left: 10px;
+    background: url(../images/icon.gif) no-repeat 0px center;
+    width: 170px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+}
+
+.qg_cont ul li a:link {
+    text-decoration: none;
+    color: #154d1e;
+    font-size: 12px;
+}
+
+.qg_cont ul li a:visited {
+    text-decoration: none;
+    color: #154d1e;
+    font-size: 12px;
+}
+
+.qg_cont ul li a:hover {
+    text-decoration: underline;
+    color: #01b51e;
+}
+
+.right {
+    width: 764px;
+    float: left;
+    background: url(../images/right_bg.gif) repeat-y #1a5d27;
+    padding: 0px 5px 0px 8px;
+    _padding: 0px 0px 0px 8px;
+}
+
+.about {
+    margin-bottom: 5px;
+}
+
+.about_tit {
+    background: url(../images/about_tit.gif) no-repeat;
+    line-height: 29px;
+    height: 29px;
+}
+
+.about_cont {
+    background: #fff;
+    padding: 10px;
+}
+
+.about_tit2 {
+    background: url(../images/about_tit2.gif) no-repeat;
+    color: #154d1e;
+    padding-left: 15px;
+    padding-top: 15px;
+    height: 26px;
+}
+
+.about_kuang {
+    border-left: 1px solid #bebebc;
+    border-right: 1px solid #bebebc;
+    margin-right: 6px;
+    padding: 4px 4px 4px 8px;
+    line-height: 24px;
+    color: #154d20;
+    background: url(../images/about_kuang_hua.jpg) no-repeat #fbfaf8 left bottom;
+    height: 1%;
+}
+
+.kuang {
+    margin: 3px 3px 3px 8px;
+    padding: 3px;
+    border: 1px solid #d9d8d6;
+    float: right;
+}
+
+.about_foot {
+    background: url(../images/about_foot.gif) no-repeat;
+    height: 10px;
+}
+
+.weizi {
+    float: right;
+    color: #fff;
+    margin-right: 20px;
+}
+
+.pro_cont {
+    padding: 5px;
+    background: #fff;
+}
+
+.pro_cont2 {
+    background: url(../images/pro_bg.gif) repeat-x #fff;
+}
+
+.pro_left {
+    float: left;
+}
+
+#demo {
+
+}
+
+#demo1 {
+
+}
+
+#demo2 {
+
+}
+
+#demo img {
+    border: #d9d8d6 1px solid;
+    padding: 3px;
+    margin: 3px;
+    background: #fff;
+}
+
+#demo1 img {
+    border: #d9d8d6 1px solid;
+    padding: 3px;
+    margin: 3px;
+    background: #fff;
+}
+
+#demo a:link {
+    text-decoration: none;
+    color: #154d1e;
+    line-height: 18px;
+    text-align: center;
+}
+
+#demo a:visited {
+    text-decoration: none;
+    color: #154d1e;
+    line-height: 18px;
+    text-align: center;
+}
+
+#demo a:hover {
+    text-decoration: underline;
+    color: #01b51e;
+    text-align: center;
+}
+
+.price_tit {
+    background: url(../images/price_line.gif) repeat-x bottom;
+    padding: 8px 0px 10px 10px;
+}
+
+.tab1 {
+    line-height: 24px;
+    background: #fff;
+    margin-top: 5px;
+    text-align: center;
+    color: #000;
+}
+
+.tab1 a:link {
+    color: #000;
+    text-decoration: none;
+}
+
+.tab1 a:visited {
+    color: #000;
+    text-decoration: none;
+}
+
+.tab1 a:hover {
+    text-decoration: underline;
+    color: #01b51e;
+}
+
+#foot {
+    background: #154d20;
+    text-align: center;
+    line-height: 24px;
+    color: #fff;
+    width: 1003px;
+    margin: 0px auto;
+    padding: 5px 0px;
+}
+
+#foot a:link {
+    color: #fff;
+    text-decoration: none;
+}
+
+#foot a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+#foot a:hover {
+    text-decoration: underline;
+    color: #01b51e;
+}
+
+.f15 {
+    font-size: 14px;
+}
+
+.honor {
+    padding: 5px;
+}
+
+.honor_ku {
+    margin: 5px;
+    float: left;
+    background: #fff;
+    line-height: 24px;
+    text-align: center;
+    color: #154d1e;
+}
+
+.honor_ku span {
+    width: 167px;
+    height: 128px;
+    text-align: center;
+    text-align: center;
+    border: #d9d8d6 1px solid;
+    display: block;
+}
+
+.honor_ku img {
+    padding: 2px;
+}
+
+.news {
+    border-left: 1px solid #bebebc;
+    border-right: 1px solid #bebebc;
+    margin-right: 6px;
+    padding: 4px 4px 4px 8px;
+    line-height: 24px;
+    color: #154d20;
+    background: url(../images/about_kuang_hua.jpg) no-repeat #fbfaf8 left bottom;
+}
+
+.news li {
+    display: block;
+    background: url(../images/icon.gif) no-repeat 0px center;
+    padding-left: 15px;
+    margin: 0px 5px;
+}
+
+.news li span {
+    float: right;
+}
+
+.news a:link {
+    color: #154d20;
+    text-decoration: none;
+}
+
+.news a:visited {
+    color: #154d20;
+    text-decoration: none;
+}
+
+.news a:hover {
+    color: #01b51e;
+    text-decoration: underline;
+}
+
+.page {
+    text-align: center;
+    color: # #154d20;
+    line-height: 24px;
+    font-size: 12px;
+}
+
+h2 {
+    padding: 0px;
+    text-align: center;
+    font-size: 18px;
+    border-bottom: 1px solid #bcbabb;
+    margin: 0px 0px 5px;
+}
+
+.gq_ku {
+    color: #000;
+    border-bottom: 1px dashed #b0b0b0;
+    float: left;
+    width: 725px;
+    margin-bottom: 8px;
+    padding-bottom: 3px;
+}
+
+.gq_tit {
+    color: #154d20;
+}
+
+.pro_tit {
+    margin-left: 10px;
+}
+
+.pro_tit ul li {
+    width: 135px;
+    color: #154d1e;
+    font-size: 14px;
+    display: block;
+    float: left;
+    margin-left: 5px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+}
+
+.pro_kuang {
+    margin-bottom: 5px;
+}
+
+.pro_xx2 {
+    border: 1px solid #80ba89;
+    padding: 3px;
+    background: url(../images/pro_xx_bg.gif) repeat-x #fff;
+}
+
+.pro_xx {
+    background: url(../images/hua_bg.jpg) no-repeat right top;
+    color: #000;
+    padding: 0px 5px;
+}
+
+.tab2 {
+    width: 350px;
+    float: left;
+    line-height: 35px;
+    color: #000;
+    border: 1px solid #299c17;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-top: 8px;
+    _margin-left: 5px;
+}
+
+.title {
+    text-align: center
+}
